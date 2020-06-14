@@ -12,6 +12,7 @@
 .main__card {
     position: relative;
     margin-bottom: 30px;
+    display: block;
 }
 
 .main__product-code {
