@@ -1,0 +1,384 @@
+.main {
+    background: #141414;
+    margin: 40px 50px;
+    border-radius: 25px;
+    padding: 30px 0;
+}
+
+.group {
+    border-left: 15px solid #FFC700;
+    padding: 30px 0 30px 80px;
+}
+
+.group__title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFC700;
+    margin-bottom: 20px;
+}
+
+.group__text {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.group__text:last-of-type {
+    margin-bottom: 0;
+}
+
+.help__title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFC700;
+}
+
+.help__title {
+    margin: 20px 0;
+}
+
+.help__list {
+    padding-left: 65px;
+    margin-bottom: 40px;
+}
+
+.help__list-item {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.help__list-item:last-of-type {
+    margin-bottom: 0;
+}
+
+.help__list-item::before {
+    content: '';
+    display: block;
+    min-width: 15px;
+    min-height: 15px;
+    max-width: 15px;
+    max-height: 15px;
+    background: #C4C4C4;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.help__text {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.help__text span {
+    color: #FFC700;
+    font-weight: 700;
+}
+
+.group_mb {
+    margin-bottom: 100px;
+}
+
+.main__square {
+    margin: 40px 0;
+}
+
+.square {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 45px;
+    border: 5px solid #FFC700;
+    width: 100%;
+    max-width: 940px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square__text {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.square__list-item {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.square__list-item:last-of-type {
+    margin-bottom: 0;
+}
+
+.square__list-item:before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 10px;
+    background: #FFFFFF;
+    margin-right: 50px;
+}
+
+.square__list-div {
+    min-width: 430px;
+}
+
+.group__text_circle {
+    position: relative;
+}
+
+.group__text_circle::before {
+    content: '';
+    display: block;
+    min-width: 15px;
+    min-height: 15px;
+    max-width: 15px;
+    max-height: 15px;
+    background: #C4C4C4;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: -30px;
+}
+
+.help_margin {
+    margin: 40px 0;
+}
+
+.group__text span {
+    color: #FFC700;
+    font-weight: 700;
+}
+
+.prepay {
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prepay__text {
+    width: 100%;
+    max-width: 920px;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.prepay__list-item {
+    width: 100%;
+    max-width: 660px;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.prepay__list-item::before {
+    content: '';
+    display: block;
+    min-width: 15px;
+    min-height: 15px;
+    max-width: 15px;
+    max-height: 15px;
+    background: #C4C4C4;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: -30px;
+}
+
+.prepay__list-item:last-of-type {
+    margin-bottom: 0;
+}
+
+.main__form {
+    margin: 100px 0 50px;
+}
+
+.form {
+    border: 5px solid #FFC700;
+    position: relative;
+    padding: 100px 90px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFC700;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+
+.form__date-files {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.form__date {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__date label {
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+::-webkit-calendar-picker-indicator {
+    color: transparent;
+    opacity: 1;
+    background: url(../images/calendar.svg) no-repeat center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.form__date input {
+    background: transparent;
+    border: 3px solid #FFFFFF;
+    color: #ffffff;
+    width: 360px;
+    height: 50px;
+    padding: 0 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form__files span {
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.form__files input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.form__files label {
+    display: block;
+    width: 165px;
+    height: 50px;
+    border: 3px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form__files label:hover {
+    background: #FFC700;
+}
+
+.form__date {
+    margin-right: 15px;
+}
+
+.form__files {
+    margin-left: 15px;
+}
+
+.form__files-inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__files .file2 {
+    margin: 0 30px;
+}
+
+.form__textarea {
+    margin-bottom: 40px;
+}
+
+.form__textarea textarea {
+    border: 3px solid #FFFFFF;
+    width: 945px;
+    height: 293px;
+    background: transparent;
+    padding: 15px;
+    color: #FFC700;
+    resize: none;
+}
+
+.form__textarea label {
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.form__inputs {
+    width: 945px;
+}
+
+.form__inputs-title {
+    font-weight: 400;
+    font-size: 26px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form__inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form__inputs input {
+    width: 455px;
+    height: 50px;
+    border: 3px solid #FFFFFF;
+    margin-bottom: 20px;
+    background: transparent;
+    color: #FFC700;
+    padding: 0 15px;
+}
+
+.form__inputs input::placeholder {
+    color: #ffffff;
+}
+
+.form__button {
+    padding: 10px 100px;
+    background: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0 25px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.form__button:hover {
+    background: #FFC700;
+}
+
+.form__help {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}

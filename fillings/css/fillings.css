@@ -1,0 +1,116 @@
+.main__title {
+    font-weight: 400;
+    font-size: 34px;
+    color: #FFC700;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+    text-align: center;
+    padding: 15px 0;
+    margin: 40px 50px 30px;
+}
+
+.main__text {
+    font-size: 24px;
+    text-align: center;
+    color: #FFC700;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+    padding: 15px;
+    margin: 0 50px 30px;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.8);
+    margin: 0 50px 30px;
+    border-radius: 25px;
+    padding: 40px 0;
+}
+
+.card__link {
+    width: 350px;
+    height: 350px;
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card__link:hover {
+    border-radius: 25px;
+}
+
+.card__link:hover .card__overlay {
+    opacity: 1;
+    border-radius: 25px;
+}
+
+.card__overlay {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.card__overlay i {
+    font-size: 45px;
+    color: #ffffff;
+}
+
+.card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card__title {
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.card__line {
+    width: 870px;
+    height: 2px;
+    background: #FFFFFF;
+    margin: 20px 0;
+    align-self: flex-end;
+}
+
+.card__text {
+    font-weight: normal;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.card:nth-child(even) .card__link-block {
+    order: 2;
+}
+
+.card:nth-child(even) .card__text-block {
+    order: 1;
+}
+
+.card:nth-child(even) .card__line {
+    align-self: flex-start;
+}
+
+.card:nth-child(even) .card__title {
+    text-align: left;
+}
+
+.card__text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

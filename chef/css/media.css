@@ -1,0 +1,38 @@
+@media (max-width: 1199.5px) {}
+
+@media (max-width: 991.5px) {
+    .main__text {
+        font-size: 18px;
+    }
+
+    .main__images {
+        height: 280px;
+    }
+}
+
+@media (max-width: 767.5px) {
+    .main {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .main__image {
+        height: 280px;
+    }
+
+    .main__text-block {
+        order: -1;
+    }
+}
+
+@media (max-width: 575.5px) {
+    .main {
+        margin: 20px 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .main__text {
+        font-size: 16px;
+    }
+}

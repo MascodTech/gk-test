@@ -1,0 +1,44 @@
+.bg {
+    background: rgba(20, 20, 20, 0.8);
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 25px;
+}
+
+.main {
+    margin: 40px 0;
+}
+
+.main__title {
+    padding: 25px 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFC700;
+    margin-bottom: 25px;
+}
+
+.promotion {
+    padding: 20px 15px;
+    margin-bottom: 30px;
+}
+
+.promotion:last-of-type {
+    margin-bottom: 0;
+}
+
+.promotion__container {
+    border-left: 15px solid #FFC700;
+    padding: 20px 0 20px 80px;
+}
+
+.promotion__text {
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.promotion__text:last-of-type {
+    margin-bottom: 0;
+}

@@ -1,0 +1,45 @@
+.main {
+    margin: 40px 50px;
+    background: #141414;
+    border-radius: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.info-group {
+    border-left: 15px solid #FFC700;
+    padding: 30px 0 30px 80px;
+    margin-bottom: 40px;
+}
+
+.info-group:last-of-type {
+    margin-bottom: 0;
+}
+
+.info-text {
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.info-text span {
+    color: #FFC700;
+    font-size: 22px;
+}
+
+.info-text:last-of-type {
+    margin-bottom: 0;
+}
+
+.info-title {
+    font-size: 22px;
+    color: #FFC700;
+    margin-bottom: 20px;
+}
+
+.important-text {
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFC700;
+}
